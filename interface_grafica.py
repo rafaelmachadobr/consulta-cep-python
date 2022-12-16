@@ -5,7 +5,7 @@ def tela_inicial():
     sg.theme('Dark2')
 
     cep = [
-        [sg.Text('Informe o CEP:', font='arial 12', pad=(0, 0))],
+        [sg.Text('Informe um CEP:', font='arial 12', pad=(0, 0))],
         [sg.Input(size=(20, 0), font='arial 12', pad=(0, 0), key='cep')]
     ]
 
@@ -37,7 +37,7 @@ def tela_inicial():
         [sg.Column(cep, justification='center',
                    element_justification='center')],
         [sg.Column(coluna1, pad=((0, 20), 0)),
-         sg.Column(coluna2(2))],
+         sg.Column(coluna2)],
         [sg.Column(botoes, justification='center')]
     ]
 
