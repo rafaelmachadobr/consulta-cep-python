@@ -7,3 +7,6 @@ while True:
     if event == sg.WIN_CLOSED:
         break
     
+    # if event == 'Consultar':
+    #     try:
+    #         pass
