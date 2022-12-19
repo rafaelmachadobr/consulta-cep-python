@@ -33,7 +33,7 @@ def tela_inicial():
     ]
 
     layout = [
-        [sg.Text('ConsultarCEP', font='arial 18 bold')],
+        [sg.Text('Consultar CEP', font='arial 18 bold')],
         [sg.Column(cep, justification='center',
                    element_justification='center')],
         [sg.Column(coluna1, pad=((0, 20), 0)),
@@ -41,5 +41,5 @@ def tela_inicial():
         [sg.Column(botoes, justification='center')]
     ]
 
-    telaprin = sg.Window('ConsultaCEP', element_padding=(
+    telaprin = sg.Window('Consulta CEP', element_padding=(
         0, 10), layout=layout, size=(600, 500), finalize=True)
